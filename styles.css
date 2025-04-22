@@ -539,12 +539,16 @@ align-items: center;
     width: 75px;
     padding-top: 15px;
 }
-
-.third-shopping-pick-container{
+.just-two-container{
     display: flex;
     flex-direction: row;
     gap: 15px;
     justify-content: center;
+}
+.third-shopping-pick-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     padding-top: 20px;
 }
 .image-container-1{
@@ -557,9 +561,33 @@ align-items: center;
     width: 110px;
 }
 
+.fourth-shopping-pick-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.image_8{
+    width: 83px;
+    padding-left: 20px;
+}
+.image_9{
+    width: 75px;
+    padding-top: 10px;
+}
 
-
-
+.image_10{
+    width: 80px;
+    padding-top: 20px;
+}
+.fifth-shopping-pick-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 20px;
+}
 
 
 @media screen and (max-width: 1440px) and (min-width: 768px){   
@@ -773,4 +801,25 @@ align-items: center;
     .image-2{
       width: 145px;
     }
+    .overall-shopping-list-pick-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .overall-shopping-mini-list-pick-container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .overall-shopping-mini-list-pick-container-2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
 }
+
+
+
